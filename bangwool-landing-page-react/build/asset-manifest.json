@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.697d4206.css",
+    "main.js": "/static/js/main.dd89e765.js",
+    "static/js/787.3767c5f3.chunk.js": "/static/js/787.3767c5f3.chunk.js",
+    "static/media/Pretendard-Regular.otf": "/static/media/Pretendard-Regular.8c2bcf220fa6ced26fc0.otf",
+    "static/media/BMJUA_otf.otf": "/static/media/BMJUA_otf.900a7b419c1f295c08bd.otf",
+    "static/media/overview_mockup.png": "/static/media/overview_mockup.b93b02d162accbf8660a.png",
+    "static/media/timer_mockup.png": "/static/media/timer_mockup.fefa734a27d0d2a01abc.png",
+    "static/media/preview_mockup.png": "/static/media/preview_mockup.10819be9c233ad490438.png",
+    "static/media/statistics_mockup.png": "/static/media/statistics_mockup.c7682fff6d88e6867538.png",
+    "static/media/ranking_mockup.png": "/static/media/ranking_mockup.b53403c8eae7d7bcd8f0.png",
+    "static/media/download_appstore.png": "/static/media/download_appstore.4520c8eb3fb7f3126cdc.png",
+    "static/media/download_playstore.png": "/static/media/download_playstore.3ec7497c8fbcd433a705.png",
+    "static/media/benefit_3.png": "/static/media/benefit_3.c6203e737eada9a46360.png",
+    "index.html": "/index.html",
+    "main.697d4206.css.map": "/static/css/main.697d4206.css.map",
+    "main.dd89e765.js.map": "/static/js/main.dd89e765.js.map",
+    "787.3767c5f3.chunk.js.map": "/static/js/787.3767c5f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.697d4206.css",
+    "static/js/main.dd89e765.js"
+  ]
+}
