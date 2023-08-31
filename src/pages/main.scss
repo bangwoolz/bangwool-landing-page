@@ -1,0 +1,285 @@
+@import '../resources.css';
+
+.main_page {
+    .preview_bg {
+        display: flex;
+        height: 1320px;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--primary-color);
+
+    
+        .preview {
+            display: flex;
+            width: 1349px;
+            justify-content: space-between;
+
+            .preview_mockup {
+                width: 634px;
+                height: 1015px;
+            }
+
+            .preview_contents {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                span {
+                    color: white;
+                }
+                .preview_subtitle {
+                    font-family: jua;
+                    font-size: 75px;
+                }
+                .preview_title {
+                    font-family: jua;
+                    font-size: 120px;
+                }
+                .preview_description {
+                    font-family: pretendard;
+                    font-size: 30px;
+                    margin-bottom: 10px;
+                }
+                .preview_playstore {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+    .overview_bg {
+        height: 2288px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .overview {
+            display: flex;
+            flex-direction: column;
+            width: 1294px;
+            height: 2038px; 
+            justify-content: center;
+            align-items: flex-start;
+
+            .overview_contents {
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                margin-bottom: 80px;
+
+                .overview_title {
+                    font-family: jua;
+                    font-size: 100px;
+                    color: var(--primary-color);
+                }
+                .overview_subtitle {
+                    font-family: jua;
+                    font-size: 50px;
+                    color: #FFBABA;
+                    margin-bottom: 10px;
+                }
+                .overview_description {
+                    font-family: pretendard;
+                    font-size: 30px;
+                    color: var(--gray-600);
+                }
+            }
+            .overview_mockup {
+                width: 1294px;
+                height: 1693px;
+            }
+        }
+    }
+
+    .timer_bg {
+        height: 1302px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--primary-color);
+
+        .timer {
+            display: flex;
+            width: 1339px;
+            justify-content: space-between;
+            align-items: center;
+
+            .timer_contents {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+
+                .timer_title {
+                    font-family: jua;
+                    font-size: 100px;
+                    color: white;
+                }
+                .timer_subtitle {
+                    font-family: jua;
+                    font-size: 50px;
+                    color: #FFF0F0;
+                    margin-bottom: 10px;
+                }
+                .timer_description {
+                    font-family: pretendard;
+                    font-size: 30px;
+                    color: #FFDDDD;
+                }
+            }
+            .timer_mockup {
+                width: 780px;
+                height: 1052px;
+            }
+        }
+    }
+
+    .statistics_bg {
+        height: 1251px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .statistics {
+            display: flex;
+            width: 1229px;
+            justify-content: space-between;
+            align-items: center;
+
+            .statistics_contents {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+
+                .statistics_title {
+                    font-family: jua;
+                    font-size: 100px;
+                    color: var(--primary-color);
+                }
+                .statistics_subtitle {
+                    font-family: jua;
+                    font-size: 50px;
+                    color: #FFBABA;
+                    margin-bottom: 10px;
+                }
+                .statistics_description {
+                    font-family: pretendard;
+                    font-size: 30px;
+                    color: var(--gray-600);
+                }
+            }
+            .statistics_mockup {
+                width: 626px;
+                height: 1001px;
+            }
+        }
+    }
+
+    .ranking_bg {
+        height: 1080px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--primary-color);
+
+        .ranking {
+            display: flex;
+            width: 1069px;
+            justify-content: space-between;
+            align-items: center;
+
+            .ranking_contents {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+
+                .ranking_title {
+                    font-family: jua;
+                    font-size: 100px;
+                    color: white;
+                }
+                .ranking_subtitle {
+                    font-family: jua;
+                    font-size: 50px;
+                    color: #FFF0F0;
+                    margin-bottom: 10px;
+                }
+                .ranking_description {
+                    font-family: pretendard;
+                    font-size: 30px;
+                    color: #FFDDDD;
+                }
+            }
+            .ranking_mockup {
+                width: 365px;
+                height: 830px;
+            }
+        }
+    }
+
+    .benefits_bg {
+        height: 1393px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .benefits {
+            display: flex;
+            width: 1229px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+
+            .benefits_contents {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+
+                .benefits_title {
+                    font-family: jua;
+                    font-size: 100px;
+                    color: var(--primary-color);
+                }
+                .benefits_subtitle {
+                    font-family: jua;
+                    font-size: 50px;
+                    color: #FFCCCC;
+                }
+            }
+            .benefits_table {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                width: 1229px;
+                height: 850px;
+            }
+        }
+    }
+
+    .download_bg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 1200px;
+
+        .download {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 332px;
+            width: 863px;
+
+            .download_description {
+                font-family: jua;
+                font-size: 100px;
+                color: var(--primary-color);
+                margin-bottom: 73px;
+            }
+
+            .download_playstore {
+                margin-right: 35px;
+            }
+        }
+    }
+
+
+
+}

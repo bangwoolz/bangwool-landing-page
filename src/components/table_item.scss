@@ -1,0 +1,32 @@
+@import '../resources.css';
+
+.table_item_bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .table_item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 502px;
+        height: 345px;
+
+        .table_item_title {
+            font-family: jua;
+            font-size: 50px;
+            text-align: center;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+
+        .table_item_description {
+            font-family: pretendard;
+            font-size: 30px;
+            text-align: center;
+            color: var(--gray-600);
+        }
+
+    }
+}

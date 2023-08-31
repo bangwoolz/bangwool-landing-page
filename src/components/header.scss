@@ -1,0 +1,23 @@
+@import '../resources.css';
+
+.header {
+    display: flex;
+    background-color: var(--primary-color);
+    justify-content: center;
+    
+    .content {
+        display: flex;
+        width: 1263px;
+        margin-top: 49px;
+        margin-bottom: 49px;
+        justify-content: space-between;
+
+        .title {
+            font-family: jua;
+            font-size: 50px;
+            color: white;
+        }
+    }
+
+
+}

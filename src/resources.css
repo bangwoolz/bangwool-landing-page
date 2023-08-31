@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "jua";
+    src: url("./fonts/BMJUA_otf.otf");
+}
+
+@font-face {
+    font-family: "pretendard";
+    src: url("./fonts/Pretendard-Regular.otf");
+}
+
+:root {
+    --primary-color: #FF6666;
+    --gray-600: #888888
+}
+  

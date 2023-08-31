@@ -1,0 +1,17 @@
+@import '../resources.css';
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 323px;
+    background-color: var(--primary-color);
+
+    .footer_description {
+        font-family: pretendard;
+        font-size: 30px;
+        color: white;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+}
