@@ -76,41 +76,40 @@ function Main() {
                         <img className='ranking_mockup' src={ranking_mockup} />
                         <div className='ranking_contents'>
                             <span className='ranking_title'>Ranking</span>
-                            <span className='ranking_subtitle'>쌓여가는 토마토</span>
-                            <span className='ranking_description'>당신이 집중한 시간에 비례해서<br />
-                                나무에 토마토가 열립니다<br />
-                                얼마나 많은 토마토를 모을 수 있을까요<br />
-                                쌓여가는 토마토와 함꼐 성취감을 느껴보세요<br />
-                                주간, 월간 통계도 함께 확인해볼 수 있습니다</span>
+                            <span className='ranking_subtitle'>최고의 방울이는 누구?</span>
+                            <span className='ranking_description'>모은 토마토 개수를 다른 사람들과 비교할 수 있습니다<br/>
+                                오늘의 최고 방울이, 이번주의 최고 방울이는<br/>
+                                과연 누구일지 확인해보세요<br/>
+                                승부욕과 성취감을 얻어보세요</span>
+                                </div>
+                        </div>
+                    </div>
+                    <div className='benefits_bg'>
+                        <div className='benefits'>
+                            <div className='benefits_contents'>
+                                <span className='benefits_title'>Benefits</span>
+                                <span className='benefits_subtitle'>방울이의 장점</span>
+                            </div>
+                            <div className='benefits_table'>
+                                <TableItem src={benefit_1} title='방울 뽀모도로' description1='시작하는 부담감을 줄이고자 더 쉬워진' description2='15분/5분의 방울 뽀모도로 기법 제안' />
+                                <TableItem src={benefit_2} title='시각적 피드백' description1='집중시간을 바탕으로 15분마다 자라는' description2='토마토와 통계, 랭킹으로 동기부여 제공' />
+                                <TableItem src={benefit_3} title='귀여운 캐릭터' description1='사용자에게 더 친근하게 다가갈 수 있도록' description2='디자인과 캐릭터로 귀여운 분위기 조성' />
+                                <TableItem src={benefit_4} title='간편한 기능' description1='간단하고 직관적인 작동 방식으로 사용성을' description2='높이고 편리함 추구' />
+                            </div>
+                        </div>
+                    </div>
+                    <div className='download_bg'>
+                        <div className='download'>
+                            <span className='download_description'>지금 다운로드 해보세요</span>
+                            <div>
+                                <img className='download_playstore' src={download_playstore} />
+                                <img src={download_appstore} />
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className='benefits_bg'>
-                    <div className='benefits'>
-                        <div className='benefits_contents'>
-                            <span className='benefits_title'>Benefits</span>
-                            <span className='benefits_subtitle'>방울이의 장점</span>
-                        </div>
-                        <div className='benefits_table'>
-                            <TableItem src={benefit_1} title='방울 뽀모도로' description1='시작하는 부담감을 줄이고자 더 쉬워진' description2='15분/5분의 방울 뽀모도로 기법 제안'/>
-                            <TableItem src={benefit_2} title='시각적 피드백' description1='집중시간을 바탕으로 15분마다 자라는' description2='토마토와 통계, 랭킹으로 동기부여 제공'/>
-                            <TableItem src={benefit_3} title='귀여운 캐릭터' description1='사용자에게 더 친근하게 다가갈 수 있도록' description2='디자인과 캐릭터로 귀여운 분위기 조성'/>
-                            <TableItem src={benefit_4} title='간편한 기능' description1='간단하고 직관적인 작동 방식으로 사용성을' description2='높이고 편리함 추구'/>
-                        </div>
-                    </div>
-                </div>
-                <div className='download_bg'>
-                    <div className='download'>
-                        <span className='download_description'>지금 다운로드 해보세요</span>
-                        <div>
-                            <img className='download_playstore' src={download_playstore}/>
-                            <img src={download_appstore}/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </>
-    )
+            </>
+            )
 }
 
-export default Main;
+            export default Main;
